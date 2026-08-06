@@ -1,13 +1,8 @@
-n1 = float(input("Digite um numero: "))
-n2 = float(input("Digite outro numero: "))
+nota1 = float (input("coloque sua nota: "))
+nota2 = float (input("coloque sua nota: "))
+nota3 = float (input("coloque sua nota: "))
+nota4 = float (input("coloque sua nota: "))
 
-soma = n1 + n2 
-subtracao = n1 - n2
-multiplicacao = n1 * n2 
-divisao = n1/n2
+media = (nota1+nota2+nota3+nota4)/4
 
-print("A soma do numero ", n1," e ",n2," é ", soma)
-print("A subtração do numero", n1," e ", n2," é ", subtracao) 
-print("A multiplicação do numero ", n1," e ",n2," é ", multiplicacao)
-print("A divisão do numero ", n1," e ", n2," é ", divisao)
-
+print("sua media foi:", media)
