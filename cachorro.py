@@ -1,8 +1,7 @@
-nota1 = float (input("coloque sua nota: "))
-nota2 = float (input("coloque sua nota: "))
-nota3 = float (input("coloque sua nota: "))
-nota4 = float (input("coloque sua nota: "))
+aceleracao = float(input("digite o numero: "))
+massa = float(input("digite o numero: "))
 
-media = (nota1+nota2+nota3+nota4)/4
+forca = massa * aceleracao
 
-print("sua media foi:", media)
+print("valor total:", forca)
+
