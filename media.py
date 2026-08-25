@@ -6,3 +6,8 @@ nota4 = float(input("digite o numero: "))
 media = (nota1 * nota2 * nota3 * nota4)/4
 
 print("digite o valor total:", media)
+
+if media>=6:
+       print("aluno aprovado!")
+else:
+       print("aluno reprovado!")
